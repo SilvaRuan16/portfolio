@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="h-auto p-6 bg-blue-900 flex flex-col justify-around items-center-safe shadow-sm max-w-[440px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-full">
+    <footer className="h-auto w-full p-6 bg-blue-900 flex flex-col justify-around items-center-safe shadow-sm">
       <div>
         <h1 className="text-white text-xl">Contatos</h1>
       </div>
