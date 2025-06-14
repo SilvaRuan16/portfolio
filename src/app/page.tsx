@@ -5,12 +5,13 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 import Image from "next/image";
+import Screen from "./components/Screen";
 
 export default function Home() {
   return (
     <Container className="flex flex-col">
       <Header/>
-      <main className="h-screen lg:h-full xl:h-screen bg-white flex flex-col">
+      <Screen className="flex-col bg-white">
         <div className="text-center p-3 mt-2.5 md:p-10 md:translate-y-5">
           <h1 className="text-xl">Olá! Seja muito bem-vindo ao meu portfólio.</h1>
         </div>
@@ -35,7 +36,7 @@ export default function Home() {
             height={200}
           />
         </div>
-      </main>
+      </Screen>
       <Footer/>
     </Container>
   )
