@@ -10,7 +10,7 @@ export default function Header() {
       <div className="flex flex-col md:flex-row">
         <button className="w-[110px] h-auto p-2 m-1 border-b text-white" onClick={() => redirect("/")}>Inicio</button>
         <button className="w-[110px] h-auto p-2 m-1 border-b text-white" onClick={() => redirect("../pages/sobreMim")}>Sobre Mim</button>
-        <button className="w-[110px] h-auto p-2 m-1 border-b text-white" onClick={() => redirect("")}>Projetos</button>
+        <button className="w-[110px] h-auto p-2 m-1 border-b text-white" onClick={() => redirect("../pages/projetos")}>Projetos</button>
         <button className="w-[110px] h-auto p-2 m-1 border-b text-white" onClick={() => redirect("")}>Curriculo</button>
       </div>
     </header>
