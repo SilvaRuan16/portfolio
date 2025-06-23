@@ -9,7 +9,7 @@ export default function Footer() {
           WhatsApp: (27) 98804-5322
         </li>
         <li className="text-white text-sm">
-          Instagram: @ruan_.silva_.16
+          GitHub: SilvaRuan16
         </li>
         <li className="text-white text-sm">
           E-mail: ruangustavo.ss16@gmail.com
